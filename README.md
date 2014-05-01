@@ -23,6 +23,8 @@ First, clone the project, then install the required Gems with Bundler.
     $ bundle install --path=.gems
 ```
 
+__note: by default this will use the internal polipo cache proxy (192.168.1.200:8123) if you need to change this for whatever reason edit the appropriate preseed.cfg__
+
 ## Useful commands
 List available baseboxes that can be built:
 ```bash
